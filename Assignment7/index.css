@@ -1,0 +1,80 @@
+body{
+    height:100vh;
+    font-family:helvetica;
+    background-repeat: no-repeat;
+    background-image: url("https://cdn2.vectorstock.com/i/1000x1000/77/16/weather-background-icon-vector-87716.jpg");
+    background-size:cover;
+    display:flex;
+    justify-content: space space-evenly;
+    align-items: center;
+}
+p{
+    margin: 5px;
+    color: black;
+    font-family: 'times new roman', cursive;
+}
+#wrapper{
+    background-color: rgb(178, 178, 216);
+    width:300px;
+    text-align:center;
+    border-radius:10px;
+}
+#info{
+    width:200px;
+    text-align:center;
+    background:rgba(256,256,256,.6);
+    border-radius:10px;
+}
+div{
+    margin:10px auto;
+}
+input{
+    border:none;
+    margin:10px auto;
+    width:200px;
+    height:30px;
+    text-align:center;
+    font-size:25px;
+    padding:5px;
+    background-color:rgb(16, 12, 236);
+    border-radius:10px;
+    font-style: inherit;
+}
+input:hover{
+    background-color: rgb(10, 211, 247);
+    color: black;
+}
+button{
+    color:blue;
+    border:none;
+    margin:auto;
+    width:215px;
+    height:40px;
+    text-align:center;
+    font-size:25px;
+    padding:5px;
+    border-radius:10px;
+}
+button:hover{
+    background-color:rgb(202, 202, 202);
+    width: 218px;
+    height: 42px;
+}
+#location{
+    font-size:20px;
+}
+#time{
+    font-size:20px;
+}
+#temp{
+    font-size:30px;
+}
+#minmax{
+    font-size:15px;
+}
+#weather{
+    font-size:20px;
+}
+#speed{
+    font-size:20px;
+}
